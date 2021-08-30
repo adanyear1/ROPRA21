@@ -1,0 +1,228 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*navbar*/
+nav{
+    background-color: black;
+}
+
+.navbar{
+    position: absolute;
+}
+
+.navbar-brand{
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-size: 30px;
+}
+
+#navbarNav{
+    padding-right: 40px;
+}
+
+a .nav-link{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#orange{
+    color: darkorange;
+}
+
+#green{
+    color: darkgreen;
+}
+
+#blue{
+    color: deepskyblue;
+}
+
+ul .navbar-nav{
+    float: right;
+}
+
+.nav.navbar-nav a {
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav.navbar-nav a:hover {
+    background-color: black;
+}
+
+#orange:hover {
+    color: darkorange;
+}
+
+#green:hover {
+    color: darkgreen;
+}
+
+#blue:hover {
+    color: deepskyblue;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    height: 260px;
+    color: white;
+}
+
+footer .navbar-brand{
+    font-size: 5.5rem;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
+.logo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.site-map {
+    display: grid;
+    justify-content: left;
+    /*height: 100%*/
+}
+
+.site-map .nav-link{
+    font-size: 1.2em;
+    font-family: 'Segoe UI';
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #c7c7c7;
+    color: white;
+    text-decoration: none;
+}
+
+.col-heading {
+    display: block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    margin: 1rem 0;
+    padding: .4rem 0px;
+    border-bottom: 1px solid #c7c7c7;
+    letter-spacing: 3px;
+}
+
+
+/*Responsive Media Queries*/
+@media (max-width: 500px) {
+    body{
+        padding-top: 30px;
+    }
+    footer {
+        height: 480px;
+    }
+    footer .navbar-brand {
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px){
+    footer{
+        height: 450px; 
+    }
+}
+
+@media (max-width: 767px){
+    .site-map {
+        justify-content: center;
+    }
+    #footerlogo{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px){
+    nav{
+        height: 80px;
+    }
+}
+@media (min-width: 2560px) {
+    .jumbotron {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    /*footer{
+        position: absolute;
+    }*/
+}

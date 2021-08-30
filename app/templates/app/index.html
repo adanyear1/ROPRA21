@@ -1,0 +1,105 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<title>ROPRA Home</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="../../static/app/content/index.css" />
+
+<div class="jumbotron">
+    <h1>Reach Higher Than You Imagine</h1>
+    <p class="lead">Work with a partner that will help you digitilize your business without losing your core principles</p>
+    <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+<div class="container body-content">
+    <div class="row">
+        <h3>Inside ROPRA</h3>
+        <div class="col-md-4" id="blogs">
+            <h4>Tech Savy Businesses Grew During the Pandemic</h4>
+            <img src="../../static/app/images/Blog/businesssavy/code.jpg" alt="Tech Savy" class="center" />
+            <p>
+                The 2020 Coronavirus pandemic was a conflicting time for business owners due to being shut down for at least 45 days, 
+                while some businesses have not been able to re-open... 
+            </p>
+            <p><a class="btn btn-default" href="#">Read more &raquo;</a></p>
+        </div>
+        <div class="col-md-4" id="blogs">
+            <h4>Businesses Are Leveraging Technology To Grow</h4>
+            <img src="../../static/app/images/Blog/levtech/home.jpg" alt="Business" class="center" />
+            <p>Businesses are using different platforms to engage prospective, current, and past clients to keep growing. Software products from 
+                Salesforce, Microsoft, Zoom, Trello, and Slack facilitate collaboration...</p>
+            <p><a class="btn btn-default" href="#">Read more &raquo;</a></p>
+        </div>
+        <div class="col-md-4" id="blogs">
+            <h4>How Do Online Businesses Flourish?</h4>
+            <img src="../../static/app/images/Blog//onlinebusiness/blog.jpg" alt="ecommerce" class="center" />
+            <p>Since 2010, a new kind of business has been emerging, the kind of business that does not need a brick-and-mortar shop or is limited to 
+                serving the local clientele. This new type of business is operating from...</p>
+            <p><a class="btn btn-default" href="#">Read more &raquo;</a></p>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="row" id="inforow">
+        <h3>ROPRA Services Overview</h3>
+        <div class="col-md-4">
+            <img src="../../static/app/images/home.jpg" class="pimg" />
+        </div>
+        <div class="col-md-8">
+            <p class="pinfo">
+                Since 2020 we have been helping clients in different industries build an online presence and provided them with digital services that benefit their online presence, products, and productivity. We use a variety of tools to help our clients with digital marketing, process automation, product design, and web development. At ROPRA we believe that no business should fall behind because of the lack of technology. We build digital packages for each business based on their experience, market, and industry.
+            </p>
+        </div>
+    </div>
+</div>
+
+<section class="container px-0">
+    <div class="row align-items-center content">
+        <div class="col-md-6 text-center bg" id="col1">
+            <div class="container">
+                <h2 class="colhead">Web Services</h2>
+                <div class="coltext">
+                    <div class="container">
+                        Build Your Online Presence &AMP; Grow Your Business Using our Web Services 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 text-center bg" id="col2"> 
+            <div class="container">
+                <h2 class="colhead">Data Analytics</h2>
+                <div class="coltext">
+                    <div class="container">
+                        Understand Where Your Business Is Coming From, Where It's at, &AMP Where It's Heading 
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    <div class="row align-items-center content">
+        <div class="col-md-6 text-center bg" id="col3">
+            <div class="container">
+                <h2 class="colhead">Design Services</h2>
+                <div class="coltext">
+                    <div class="container">
+                        Let Us Work With You to Build Your Dream Product/Service
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 text-center bg" id="col4"> 
+            <div class="container">
+                <h2 class="colhead">Automation Services</h2>
+                <div class="coltext">
+                    <div class="container">
+                        Secure Automation Services to Keep You From Doing Repetitive Tasks 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

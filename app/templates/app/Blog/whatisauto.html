@@ -1,0 +1,71 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<title>What Is Automation</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static '/app/content/whatisautomation.css' %}" />
+
+<header>
+  <div class="container">
+    <h1>What Is Automation</h1>
+    <h2>Learn more about the history of automation</h2>
+    <p>
+      <small>By <em>Manuel Garcia</em> | Posted on:
+        <em>09/02/2020</em></small>
+    </p>
+  </div>
+</header>
+<main>
+    <article class="container">
+        <h2><strong>What is Automation?</strong></h2>
+        <p>
+            Automation is seen as the force that is replacing every job known to mankind with robots. The purpose of automation is to reduce the amount of human effort required to complete tasks, which simplifies the workplace, increases safety, and decreases lead times.    
+        </p>
+        <h2><strong>Pre-Industrial Revolution</strong></h2>
+        <p>
+            Since ancient times man has developed tools to direct his physical strength controlled by his intelligence to complete a task such as developing sharp knifes to hunt animals. The pulley dates to 1500 BC where the people of Mesopotamia used rope pulleys to hoist water from rivers. It is believed that pulleys where used to build Stonehenge. The wheel is another invention that dates to Mesopotamia where it was used to as a potter’s wheel. 
+        </p>
+        <h2><strong>Industrial Revolution</strong></h2>
+        <p>
+            The Industrial Revolution was a period that began in 1760 and ended in about 1840, where hand production methods where replaced with machine processes. This was a period where new chemical, iron production and steam power processes were introduced. 
+        </p>
+        <p>
+            Textile Manufacturing was the largest industry during this time period in terms of number employed, capital investment, and output value. In 1733 John Kay patented the flying shuttle that mechanized weaving by allowing a single weaver to weave wider fabrics in automatic machine looms. 
+        </p>
+        <p>
+            An early example of feedback control systems was the centrifugal governor that was invented by James Watt in 1788. Centrifugal governors use the proportional control theory, which is a linear feedback control system that applies a proportional correction to the controlled variable in respect to the difference of the desired value to the measured value. Originally used to control the speed of steam engines by regulating the flow of working fluids. 
+        </p>
+        <h2><strong>20th Century</strong></h2>
+          <p>
+              In 1913, Henry Ford pioneered automotive manufacturing automation by introducing the assembly line to build the Ford Model T. By doing so the production time to assemble a vehicle went down from 12 hours to about 90 minutes. This increase in efficiency allowed for the price of the Model T to be reduced to $850, which was a high cost for the average American worker. Ford pioneered automobile automation to reduce automobile manufacturing costs so that the average American can have access to a reliable vehicle.  
+          </p>
+          <p>
+            During the 1930’s the Japanese led the market with their industrial manufacturing automation components, such as microswitches, protective relays, and electrical timers. NEC played a role in developing digital circuits that used two-valued Boolean algebra to perform switching operations.
+          </p>
+        <h2><strong>Present</strong></h2>
+          <p>
+              Automation went from being used exclusively in factories to making our coffee in the morning. Home Automation is a booming business, where every aspect of the home is becoming automated. Tedious home care tasks are becoming automated with the help of sleek robots. With a Roomba by IRobot 680 one can have the pet hair, dust and dirt picked up without having to get off the couch. If I need to mow my lawn without wanting to sweat, I can turn on a Worx WR140 Landroid and it will cut my grass for free and leave it looking as good as a professional landscaper would.  
+          </p>
+        <div class="row" id="imgrow">
+            <div class="container" id="imgcont">
+                <div class="col-sm-6" id="colimg">
+                    <img src="../../../static/app/images/Blog/hoa/wr140.jpg" class="blogimg"/>
+                </div>
+                <div class="col-sm-6" id="colimg">
+                    <img src="../../../static/app/images/Blog/hoa/irobot.jpg" class="blogimg"/>
+                </div>
+            </div>
+        </div>
+          <p>
+              Restaurants are becoming automated by performing order taking, food preparation, and food delivery operations with robotic and computerized systems. At McDonald’s order automation is occurring by having customers order through digital kiosks and mobile-ordering apps. Miso Robotics developed FLIPPY, a robot that cooks burger patties and is famously employed in CaliBurger’s Pasadena, CA location. Robots that deliver food to your table. Smartender is an automated bar tender on wheels that will make you a Crown & Coke with a push of a button in seconds. 
+          </p>
+        <h2><strong>Future</strong></h2>
+        <p>
+            Society is entering the 4th industrial revolution also known as Industry 4.0, where robots that use data to perform tasks are being replaced by systems that perform tasks using artificial intelligence, cloud computing, and cognitive computing. Tedious tasks such as data entry, ad management, and customer service operations will be performed by Robotic Process Automation software. Digital clinics are growing in popularity heading in the direction of creating digital hospitals.
+        </p>
+    </article>
+</main>
+
+
+{% endblock %}

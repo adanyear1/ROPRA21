@@ -1,0 +1,57 @@
+.jumbotron {
+    background-image: url("../images/home2.jfif");
+    background-size: 100% 100%;
+    height: 240px;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+
+#servicecol{
+    text-align: center;
+    height: auto;
+}
+
+#servicecol .container{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#servicecol h4{
+    text-align: center;
+    font-size: 24px;
+}
+
+/*div #servicecol .col-md-6{
+    width: 450px;
+    height: 450px;
+}*/
+
+#servicecol img{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 8%;
+    display: block;
+}
+
+.services h4{
+    color: deepskyblue;
+}
+
+.services p{
+    font-size: 18px;
+}   
+
+@media(min-width: 2560px){
+    /*footer {
+        position: relative;
+    }*/
+}
+
+@media (min-width: 1024px){
+    #servicecol {
+        height: 400px;
+    }
+}

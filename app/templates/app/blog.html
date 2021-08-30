@@ -1,0 +1,95 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<title>ROPRA Blog</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="../../static/app/content/blog.css" />
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../../static/app/images/Blog/onlinebusiness/blog.jpg" alt="ecommerce" class="center" />
+            </div>
+            <div class="col-md-8">
+                <h2><strong>How Do Online Businesses Flourish?</strong></h2>
+                <p>
+                    Since 2010, a new kind of business has been emerging, the kind of business that does not need a brick-and-mortar shop or is limited to 
+                    serving the local clientele. This new type of business is operating from someone’s home, shop, or warehouse where a product is marketed, sold, 
+                    and purchased online. Often products are sold exclusively on social media sites such as Facebook, or Instagram. The online business is a unique 
+                    business that has allowed entrepreneurs to sell their products exclusively online.
+                </p>
+                <a type="button" class="btn" href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="cards">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <img src="../../static/app/images/Blog/blockchain/blockchain.jpg" class="card-img-top" alt="Technology vector created by fullvector - www.freepik.com">
+            <div class="card-body">
+                <h4><strong>Introduction to Blockchain & Uses</strong></h4>
+                <p class="card-text">Blockchain is a young technology that has been disrupting the financial sector due to its difficulty to change, hack or cheat due to the cryptographic signature called a hash. Blockchain is a type of Distributed Ledger Technology (DLT)</p>
+                <a type="button" class="btn" href="#">Read More</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <img src="../../static/app/images/Blog/levtech/blog.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4><strong>Businesses Are Leveraging Technology To Grow</strong></h4>
+                <p class="card-text">Businesses are using different platforms to engage prospective, current, and past clients to keep growing. Software products from Salesforce, Microsoft, Zoom, Trello, and Slack facilitate collaboration, project management, and communication</p>
+                <a type="button" class="btn" href="#">Read More</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <img src="../../static/app/images/Blog/businesssavy/blog.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4><strong>Tech Savy Businesses Grew During the Pandemic</strong></h4>
+                <p class="card-text">The 2020 Coronavirus pandemic was a conflicting time for business owners due to being shut down for at least 45 days, while some businesses have not been able to re-open. Due to the rapid changes in business operations...</p>
+                <a type="button" class="btn" href="#">Read More</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <img src="../../static/app/images/Blog/hoa/robot1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4><strong>What is Automation</strong></h4>
+                <p class="card-text">Automation is seen as the force that is replacing every job known to mankind with robots. The purpose of automation is to reduce the amount of human effort required to complete tasks, which simplifies the workplace, increases safety, and decreases lead times.</p>
+                <a type="button" class="btn" href="{% url 'whatisautomation' %}">Read More</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <img src="../../static/app/images/Blog/majorplayers/blogrobot.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4><strong>What is Robotic Process Automation?</strong></h4>
+                <p class="card-text">Have you ever heard of software that uses Artificial Intelligence and Machine Learning to perform repetitive tasks such as data-entry, transaction processing, and record keeping? Robotic Process Automation (RPA) software does that and more.</p>
+                <a type="button" class="btn" href="#">Read More</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <img src="../../static/app/images/Blog/uiproject/uipath.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4><strong>Web Datatable Scrapper</strong></h4>
+                <p class="card-text">This sequence will create a process that will write hourly cost data for airlines from planestats.com. It will create a csv file with all the data from the website, then it will filter data from Delta Airlines and write to a new csv file.</p>
+                <a type="button" class="btn" href="#">Read More</a>
+            </div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+
+{% endblock %}

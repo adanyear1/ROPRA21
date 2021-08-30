@@ -1,0 +1,116 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<title>Contact ROPRA</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/contact.css' %}" />
+
+<div class="container body-content">
+    <section class="heading">
+        <div class="container">
+            <h2>Contact Us</h2>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container">
+            <div class="icon">
+                <h3>For General Inquiries</h3>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg> <span id="textphone">(512) 968-1855</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                        </svg> <span id="textemail">magarciar931@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<section class="paragraph">
+    <h3>Hello! Hola! Bonjour!</h3>
+    <h4>Our Highly Specialized Experts Are Ready to Help You</h4>
+    <p>
+        We are happy to help you build your website or provide you with our digital services. Contact our client relations team to speak with us about how we can help you grow your business using the latest platforms to earn more clients. 
+    </p>
+    <img src="../../static/app/images/contact.jpg" alt="collaboration" class="contactimg"/>
+</section>
+
+<!--<section class="contactform">
+   <form action="" method="POST" >
+    {% csrf_token %}
+        <h2>How Can ROPRA Help You?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <input name="firstname" id="firstname" placeholder="First Name" required="" type="text" size="100" />
+                </div>
+                <div class="col-md-6">
+                    <input name="lastname" id="lastname" placeholder="Last Name" required="" type="text" size="100" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <input name="phonenumber" id="phonenumber" placeholder="Phone Number" required="" type="text" size="100" />
+                </div>
+                <div class="col-md-6">
+                    <input name="email" id="email" placeholder="E-mail" required="" type="text" size="100" />
+                </div>
+            </div>
+            <textarea name="message" id="message" placeholder="Message" required="" type="text" style="height: 200px; width: 100%" ></textarea><br />
+            <input type="submit" value="Submit" />
+        </div>
+        <br />
+    </form> 
+</section>-->
+
+<section class="get_in_touch">
+    <h1 class="title">How Can ROPRA Help You?</h1>
+    <div class="container">
+        <form action="" method="POST" >
+        {% csrf_token %}
+            <div class="contact-form row">
+                <div class="form-field col-md-6">
+                    <input id="name" class="input-text" type="text" name="name"/>
+                    <label for="name" class="label">Name</label>
+                </div>
+                <div class="form-field col-md-6">
+                    <input id="email" class="input-text" type="text" name="email" />
+                    <label for="email" class="label">email</label>
+                </div>
+                <div class="form-field col-md-6">
+                    <input id="company" class="input-text" type="text" name="company"/>
+                    <label for="company" class="label">Company Name</label>
+                </div>
+                <div class="form-field col-md-6">
+                    <input id="phonenumber" class="input-text" type="text" name="phonenumber"/>
+                    <label for="phonenumber" class="label">Contact Number</label>
+                </div>
+                <div class="form-group col-lg-12">
+                    <!--<input id="message" class="input-text" type="text" name="message"/>-->
+                    <label for="message" class="label">Message</label>
+                    <textarea id="message" class="form-control" name="message" rows="8" style="min-width:100px; max-width:100%;min-height:50px;height:100%;width:100%;border-width: 0 0 1px 0; border: solid #03045e; margin-top: 15px;"></textarea>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input class="submit-btn" type="submit" value="submit"/>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+</div>
+
+{% endblock %}

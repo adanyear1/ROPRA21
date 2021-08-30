@@ -1,0 +1,153 @@
+.jumbotron {
+    background-image: url("../images/homejumbo.jpg");
+    background-size: 100% 100%;
+    height: 320px;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    color: deepskyblue;
+}
+
+.jumbotron .btn {
+    border: white;
+    background-color: #666666;
+    color: white;
+}
+
+#blogs h4{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.col-md-4 h4{
+    height: 40px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 50%;
+}
+
+.pimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+}
+
+.col-md-4 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}*/
+
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+section .row {
+    width: 100%;
+    margin: auto
+}
+
+.bg{
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    width: 50%;
+}
+
+.colhead{
+    color: white;
+    margin-top: 30px;
+}
+
+
+#col1{
+    background-image: url("../images/overview1.jpg");
+}
+
+#col2 {
+    background-image: url("../images/overview2.jpg");
+}
+
+#col3 {
+    background-image: url("../images/overview3.jpg");
+}
+
+#col4 {
+    background-image: url("../images/overview4.jpg");
+}
+
+.coltext {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.4em;
+}
+
+
+@media (min-width: 501px) and (max-width: 991px) {
+    #blogs{
+        height: 375px;
+    }
+    .pimg{
+
+    }
+    #inforow {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 767px){
+    section .bg{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron h1{
+        font-size: 3.5rem;
+    }
+    .jumbotron p{
+        font-size: 2.75rem;
+    }
+    #inforow {
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 992px){
+    .pinfo{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1023px){
+    section .container{
+        margin: 0;
+    }
+}
+
+@media (min-width: 1024px){
+    section .container{
+        margin: auto;
+    }
+}

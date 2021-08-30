@@ -1,0 +1,72 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="../../static/app/content/services.css" />
+
+<div class="jumbotron">
+    <div class="container-fluid">
+        <h2>Services</h2>
+        <h3>Learn More About The Services We Offer</h3>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6" id="servicecol">
+            <div class="container">
+                <h4>Web Development</h4>
+                <img src="../../static/app/images/webdev.jpg" alt="webdevelopment" class="webdevimg"/>
+            </div>
+        </div>
+        <div class="col-md-6" id="servicecol">
+            <h4>Design</h4>
+            <img src="../../static/app/images/design.jpg" alt="design" class="designimg"/>
+        </div>
+        <div class="col-md-6" id="servicecol">
+            <h4>Robotic Process Automation</h4>
+            <img src="../../static/app/images/rpa.jpg" alt="roboticprocessautomation" class="img"/>
+        </div>
+        <div class="col-md-6" id="servicecol">
+            <h4>Data Analytics</h4>
+            <img src="../../static/app/images/data.jpg" alt="dataanalysis" class="dataimg"/>
+        </div>
+    </div>
+</div>
+
+<div class="services">
+    <div class="container">
+        <div id="webdevelopment">
+            <h4><strong>Web Development</strong></h4>
+                <p>
+                    Are you looking to expand your digital presence by having your own space on the Web? Looking to modernize your website so that it is viewed through every device that is used by your clients? We are here to develop a responsive modern website that will promote your products and services while keeping visitors engaged. Looking to come out on the first page of google? Our team of developers will optimize your website for SEO. SEO stands for Search Engine Optimization, which is the improvement of webpage traffic from search engines. It is a core marketing strategy that we implement for our clients at ROPRA which helps our clients convert internet users into clients. 
+                </p>
+                <br />
+        </div>
+        <div id="design">
+            <h4><strong>Design</strong></h4>
+                <p>
+                    Whether you are looking to create a digital product or a physical product our design team is available to help you create a product that your end users will enjoy. Our design experts use a variety of CAD tools and engineering methodologies to help develop your design. With over 10 years of experience in worldwide construction, telecommunications, and mechanical design projects our engineers will help meet your project requirements. 
+                </p>
+                <br />
+        </div>
+        <div id="rpa">
+            <h4><strong>Robotic Process Automation</strong></h4>
+                <p>
+                    A worker can spend the full workday filling out spreadsheets, making presentations, and filling out documentation manually, which is a waste of productivity. As providing effective customer service is important for every business, we use Robotic Process Automation (RPA) tools to ensure that businesses can eliminate mundane tasks and focus on serving their clients. RPA tools can save clients anywhere from 25 minutes to 24 hours of work. At ROPRA we help clients build automated RPA tools using UiPath that eliminate this burden. 
+                </p>
+                <br />
+        </div>
+        <div class="dataanalytics">
+            <h4><strong>Data Analytics</strong></h4>
+                <p>
+                    Want to learn more about how your business is doing by digging into all the major and minor details of your business? The ROPRA Data Analytics team will work with you to help you determine the bottlenecks of your business and look for ways to eliminate them to increase your profit. As running a business gets more expensive it is important that you understand where your money is being invested, eliminate unnecessary expenses, and understand your market. ROPRA is excited to work with your business and analyze the details of your day-to-day operations to ensure you are aware of the bottlenecks of your business. 
+                </p>
+                <br />
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
